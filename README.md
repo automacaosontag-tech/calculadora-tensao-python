@@ -1,16 +1,25 @@
-# Calculadora de Queda de Tensão em Python
+# Calculadora de Queda de Tensão Elétrica
 
-Este é um projeto simples de uma calculadora de queda de tensão elétrica, desenvolvida em Python com a biblioteca Tkinter.
+Uma aplicação de desktop simples e eficiente desenvolvida em Python para calcular a queda de tensão em condutores elétricos, auxiliando engenheiros, eletricistas e estudantes a dimensionar cabos de acordo com as boas práticas e normas técnicas.
 
-## Funcionalidades
+### Funcionalidades Principais
 
-- Calcula a queda de tensão em Volts (V) e em porcentagem (%).
-- Suporta cabos de Cobre e Alumínio.
-- Funciona para instalações Monofásicas e Trifásicas.
-- Avisa se a queda de tensão está acima do limite recomendado pela NBR 5410 (4%).
+-   Cálculo da queda de tensão em **Volts (V)**.
+-   Cálculo da queda de tensão em **percentual (%)**.
+-   Suporte para diferentes materiais de condutor (**Cobre** e **Alumínio**).
+-   Suporte para instalações **Monofásicas** e **Trifásicas**.
+-   Verificação automática de conformidade com o limite de 4% da norma **NBR 5410**.
+-   Interface gráfica intuitiva e fácil de usar, construída com **Tkinter**.
 
-## Como Usar
+---
 
-1.  Tenha o Python 3 instalado.
-2.  Execute o arquivo `calculadora.py`.
-3.  Preencha todos os campos e clique em "Calcular".
+### Como Usar
+
+#### 1. Pré-requisitos
+-   **Python 3.x** instalado em seu sistema. (A biblioteca `Tkinter` geralmente já vem incluída na instalação padrão do Python).
+
+#### 2. Execução
+Clone ou baixe os arquivos deste repositório. Abra um terminal na pasta do projeto e execute o seguinte comando:
+
+```bash
+python Calculadoradetensão.py
